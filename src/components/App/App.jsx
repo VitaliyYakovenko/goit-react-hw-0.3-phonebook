@@ -73,10 +73,7 @@ export default class App extends Component {
    
     return (<Container>
       <Title>Phonebook</Title>
-      <AddContacts
-        onGetData={this.addNewContact}
-      />
-      
+      <AddContacts onGetData={this.addNewContact}/>    
       <TitleContacts>Contacts</TitleContacts>
       <FilteredContacts
         onFilter={this.onChangeFilter}

@@ -13,9 +13,8 @@ export default class ContactsList extends Component {
     };
 
     render() {
+
         const {data} = this.props
-        
-      
         
         return (
             <ul>
@@ -30,7 +29,6 @@ export default class ContactsList extends Component {
                 ))}
             </ul>
         );
-}
-
-}
+    };
+};
 
