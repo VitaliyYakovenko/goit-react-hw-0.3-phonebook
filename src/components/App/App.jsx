@@ -39,7 +39,7 @@ export default class App extends Component {
     const isFind = contacts.find((el) => el.name === name);
    
     if (isFind) {
-      alert("go  home mazafacka!!!")
+      alert("go home mazafacka!!!");
       return;
     }
    
